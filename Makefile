@@ -1,18 +1,20 @@
 install:
-	poetry install # установить poetry
+	poetry install
 
-brain-games: # запускаем модуль>
+brain-games:
 	poetry run brain-games
 
-build: # создаем дистрибутив??
+build:
 	poetry build
 
 publish: 
 	poetry publish --dry-run #публикуем
 
 package-install: 
-	python3 -m pip install --force-reinstall dist/*.whl  # устанавливаем себе пакет
+	python3 -m pip install --force-reinstall dist/*.whl
 
+make lint:
+	poetry run flake8 brain_games
 
 
 
