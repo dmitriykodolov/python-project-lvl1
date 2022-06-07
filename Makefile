@@ -11,7 +11,7 @@ publish:
 	poetry publish --dry-run #публикуем
 
 package-install: 
-	python3 -m pip install --user dist/*.whl --no-warn-script-location  # устанавливаем себе пакет
+	python3 -m pip install --force-reinstall dist/*.whl  # устанавливаем себе пакет
 
 
 
