@@ -1,0 +1,207 @@
+Script started on Wed Jun  8 10:22:00 2022
+/Users/dmitrij/.zshrc:source:106: no such file or directory: /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py [31mcli.py[39;49m[0m      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mscripts[27m[27ms[27mc[27mr[27mi[27mp[27mt[27ms[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py     brain_even.py   [31mbrain_games.py[39;49m[0m  brain_games.pyc
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h../[7mbrain_games.py[27m[14D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[27m.[27mp[27my[?1l>[?2004l
+]2;./brain_games.py]1;./brain_games.pyTraceback (most recent call last):
+  File "./brain_games.py", line 4, in <module>
+    from brain_games.cli import welcome_user
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 4, in <module>
+    from brain_games.cli import welcome_user
+ImportError: No module named cli
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h./brain_games.py[16Dls              [14Dscriptsls     script./cli.py[8Dls -l   chmod +x cli.py[15Dls             [13Dcd -./brain_games.py[16Dls              [14Dscripts./brain_games.py[16Dpoetry run python -m brain_games.scripts.brain_even[51D./[19P[12Cpy                                   [35D[16Dpoetry run python -m brain_games.scripts.brain_games[?1l>[?2004l
+]2;poetry run python -m brain_games.scripts.brain_games]1;poetryTraceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 184, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 110, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 4, in <module>
+    from brain_games.cli import welcome_user
+ModuleNotFoundError: No module named 'brain_games.cli'; 'brain_games' is not a package
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpoetry run python -m brain_games.scripts.brain_games[52D                                                    [52Dиикфшт    и  bbrain-games[?1l>[?2004l
+]2;brain-games]1;brain-gamesWelcome to the Brain Games!
+May I have your name?lVB   Дмитрийъ 
+Hello, Дмитрий
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbrain-games[?1l>[?2004l
+ё]2;brain-games]1;brain-gamesWelcome to the Brain Games!
+May I have your name?^[[A^[[A
+Hello, ё[A[A
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbrain-games[11Dpoetry run python -m brain_games.scripts.brain_games[?1l>[?2004l
+]2;poetry run python -m brain_games.scripts.brain_games]1;poetryTraceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 184, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 110, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 4, in <module>
+    from brain_games.cli import welcome_user
+ModuleNotFoundError: No module named 'brain_games.cli'; 'brain_games' is not a package
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpoetry run python -m brain_games.scripts.brain_games[52Dbrain-games                                         [41D[11Dpoetry run python -m brain_games.scripts.brain_games[52D./[19P[12Cpy                                    [36D              .  дды[?1l>[?2004l
+]2;ды]1;дыzsh: command not found: ды
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py     brain_even.py   [31mbrain_games.py[39;49m[0m  brain_games.pyc
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hccd-  -[?1l>[?2004l
+]2;cd -]1;cd~/edPython/python-project-lvl1/brain_games
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py [31mcli.py[39;49m[0m      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hcchmod -x [7mcli.py[27m[27mc[27ml[27mi[27m.[27mp[27my[?1l>[?2004l
+]2;chmod -x cli.py]1;chmod[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py cli.py      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake lint[?1l>[?2004l
+]2;make lint]1;makemake: *** No rule to make target `lint'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mbrain_games[27m[11D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[?1l>[?2004l
+]2;brain_games]1;brain_gameszsh: command not found: brain_games
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbrain_games[11Dmake lint  [?1l>[?2004l
+]2;make lint]1;makemake: *** No rule to make target `lint'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake lint[9Dbrain_games         b  ccd -[?1l>[?2004l
+]2;cd -]1;cd~/edPython/python-project-lvl1/brain_games/scripts
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7m~/edPython/python-project-lvl1[27m[30D[27m~[27m/[27me[27md[27mP[27my[27mt[27mh[27mo[27mn[27m/[27mp[27my[27mt[27mh[27mo[27mn[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m-[27ml[27mv[27ml[27m1[?1l>[?2004l
+]2;~/edPython/python-project-lvl1]1;~/edPython/python-project-lvl1[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake lint[?1l>[?2004l
+]2;make lint]1;makepoetry run flake8 brain_games
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake build[?1l>[?2004l
+]2;make build]1;makepoetry build
+Building [36mhexlet-code[0m ([39;1m0.1.0[0m)
+  - Building [34msdist[0m
+  - Built [32mhexlet-code-0.1.0.tar.gz[0m
+  - Building [34mwheel[0m
+  - Built [32mhexlet_code-0.1.0-py3-none-any.whl[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake [7mpublish[27m[27mp[27mu[27mb[27ml[27mi[27ms[27mh[?1l>[?2004l
+]2;make publish]1;makepoetry publish --dry-run #публикуем
+
+[34mUsername:[0m 123456
+[34mPassword:[0m 
+Publishing [36mhexlet-code[0m ([39;1m0.1.0[0m) to [34mPyPI[0m
+ - Uploading [36mhexlet-code-0.1.0.tar.gz[0m [1m0%[0m - Uploading [36mhexlet-code-0.1.0.tar.gz[0m [32m100%[0m
+ - Uploading [36mhexlet_code-0.1.0-py3-none-any.whl[0m [1m0%[0m - Uploading [36mhexlet_code-0.1.0-py3-none-any.whl[0m [32m100%[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    [1m[36mdist[39;49m[0m           poetry.lock    pyproject.toml setup.cfg      typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls-  -a[?1l>[?2004l
+]2;ls -G -a]1;ls[1m[36m.[39;49m[0m              .DS_Store      [1m[36m.github[39;49m[0m        [1m[36m.idea[39;49m[0m          Makefile       [1m[36mbrain_games[39;49m[0m    poetry.lock    setup.cfg
+[1m[36m..[39;49m[0m             [1m[36m.git[39;49m[0m           .gitignore     [1m[36m.venv[39;49m[0m          README.md      [1m[36mdist[39;49m[0m           pyproject.toml typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake [7mpackage-install[27m[15D[27mp[27ma[27mc[27mk[27ma[27mg[27me[27m-[27mi[27mn[27ms[27mt[27ma[27ml[27ml[?1l>[?2004l
+]2;make package-install]1;makepython3 -m pip install --user dist/*.whl
+Processing ./dist/hexlet_code-0.1.0-py3-none-any.whl
+Requirement already satisfied: prompt<0.5.0,>=0.4.1 in /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages (from hexlet-code==0.1.0) (0.4.1)
+hexlet-code is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+[33mWARNING: There was an error checking the latest version of pip.[0m[33m
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppip[?1l>[?2004l
+]2;pip]1;pip
+Usage:   
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions propagate outside the main subroutine, instead of logging them to stderr.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  --require-virtualenv        Allow pip to only run in a virtual environment; exit with an error otherwise.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy <proxy>             Specify a proxy in the form scheme://[user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA certificate bundle. If provided, overrides the default. See 'SSL Certificate Verification' in pip documentation for more information.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for download. Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported Pythons.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the future.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppip -V[?1l>[?2004l
+]2;pip -V]1;pippip 22.1.2 from /Library/Python/3.8/site-packages/pip (python 3.8)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mpython3 -m pip install --user dist/*.whl[27m[40D[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27m-[27mu[27ms[27me[27mr[27m [27md[27mi[27ms[27mt[27m/[27m*[27m.[27mw[27mh[27ml[1C[1C[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[10C [12D[1C dist/*.whl[11D- dist/*.whl[11D- dist/*.whl[11Df dist/*.whl[11Do dist/*.whl[11Dr dist/*.whl[11Dc dist/*.whl[11De dist/*.whl[11Dr dist/*.whl[11De dist/*.whl[11Di dist/*.whl[11Dn dist/*.whl[11Ds dist/*.whl[11Dt dist/*.whl[11Da dist/*.whl[11Dl dist/*.whl[11Dl dist/*.whl[11D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;python3 -m pip install --forcereinstall dist/*.whl]1;python3
+Usage:   
+  /usr/local/bin/python3 -m pip install [options] <requirement specifier> [package-index-options] ...
+  /usr/local/bin/python3 -m pip install [options] -r <requirements file> [package-index-options] ...
+  /usr/local/bin/python3 -m pip install [options] [-e] <vcs project url> ...
+  /usr/local/bin/python3 -m pip install [options] [-e] <local project path> ...
+  /usr/local/bin/python3 -m pip install [options] <archive url/path> ...
+
+no such option: --forcereinstall
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 -m pip install --forcereinstall dist/*.whl[1C-einstall dist/*.whl[19D[P[19C [20D[1C-install dist/*.whl[18D[?1l>[?2004l
+]2;python3 -m pip install --forcere-install dist/*.whl]1;python3
+Usage:   
+  /usr/local/bin/python3 -m pip install [options] <requirement specifier> [package-index-options] ...
+  /usr/local/bin/python3 -m pip install [options] -r <requirements file> [package-index-options] ...
+  /usr/local/bin/python3 -m pip install [options] [-e] <vcs project url> ...
+  /usr/local/bin/python3 -m pip install [options] [-e] <local project path> ...
+  /usr/local/bin/python3 -m pip install [options] <archive url/path> ...
+
+no such option: --forcere-install
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 -m pip install --forcere-install dist/*.whl[P[18C [19D[1C-reinstall dist/*.whl[20D[?1l>[?2004l
+]2;python3 -m pip install --force-reinstall dist/*.whl]1;python3Processing ./dist/hexlet_code-0.1.0-py3-none-any.whl
+Collecting prompt<0.5.0,>=0.4.1
+  Using cached prompt-0.4.1-py3-none-any.whl (7.1 kB)
+Installing collected packages: prompt, hexlet-code
+  Attempting uninstall: prompt
+    Found existing installation: prompt 0.4.1
+    Uninstalling prompt-0.4.1:
+      Successfully uninstalled prompt-0.4.1
+  Attempting uninstall: hexlet-code
+    Found existing installation: hexlet-code 0.1.0
+    Uninstalling hexlet-code-0.1.0:
+      Successfully uninstalled hexlet-code-0.1.0
+[33m  WARNING: The script brain-games is installed in '/Library/Frameworks/Python.framework/Versions/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m[33m
+[0mSuccessfully installed hexlet-code-0.1.0 prompt-0.4.1
+[33mWARNING: There was an error checking the latest version of pip.[0m[33m
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hPPATH=[7m'/Library/Frameworks/Python.framework/Versions/3.9/bin'[27m[55D[27m'[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mF[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27ms[27m/[27mP[27my[27mt[27mh[27mo[27mn[27m.[27mf[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27m/[27mV[27me[27mr[27ms[27mi[27mo[27mn[27ms[27m/[27m3[27m.[27m9[27m/[27mb[27mi[27mn[27m':'$'P'A'T'H'[1C[?1l>[?2004l
+]2;PATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH' ]1;[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004hPATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH'[?1l>[?2004l
+]2;PATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH' ]1;[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004hEENV[?1l>[?2004l
+]2;ENV]1;ENVzsh: command not found: ENV
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004heenv[?1l>[?2004l
+zsh: correct 'env' to '_env' [nyae]? y
+]2;_env]1;_env_pick_variant:19: bad math expression: operand expected at `|| 0 ) '
+_env:32: bad math expression: operand expected at `< CURRENT '
+_arguments:comparguments:325: can only be called from completion function
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004heenv[?1l>[?2004l
+zsh: correct 'env' to '_env' [nyae]? n
+]2;env]1;envzsh: command not found: env
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004h~[?1l>[?2004l
+]2;~]1;~[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004heenv[?1l>[?2004l
+zsh: correct 'env' to '_env' [nyae]? n
+]2;env]1;envzsh: command not found: env
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hllsl  bbre b  bbrain-games[?1l>[?2004l
+]2;brain-games]1;brain-gamesWelcome to the Brain Games!
+May I have your name? Lvbn    Дмитрий 
+Hello,  Дмитрий 
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~prompt_status:5: command not found: wc
+[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hbrain-games[?1l>[?2004l
+]2;brain-games]1;brain-gamesWelcome to the Brain Games!
+May I have your name?

@@ -1,0 +1,13 @@
+poetry run flake8 brain_games
+brain_games/cli.py:11:1: E305 expected 2 blank lines after class or function definition, found 1
+brain_games/scripts/brain_even.py:8:1: E305 expected 2 blank lines after class or function definition, found 1
+brain_games/scripts/brain_calc.py:4:1: E302 expected 2 blank lines, found 1
+brain_games/scripts/brain_calc.py:8:1: W293 blank line contains whitespace
+brain_games/enginie/deffs.py:7:26: F541 f-string is missing placeholders
+brain_games/enginie/deffs.py:18:81: E501 line too long (97 > 80 characters)
+brain_games/enginie/deffs.py:35:1: W391 blank line at end of file
+brain_games/games/even.py:6:11: F541 f-string is missing placeholders
+brain_games/games/even.py:11:81: E501 line too long (89 > 80 characters)
+brain_games/games/even.py:26:1: E305 expected 2 blank lines after class or function definition, found 1
+brain_games/games/calc.py:14:17: E117 over-indented
+brain_games/games/calc.py:15:81: E501 line too long (92 > 80 characters)

@@ -1,0 +1,39 @@
+Script started on Wed Jun  8 14:06:05 2022
+/Users/dmitrij/.zshrc:source:106: no such file or directory: /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hscripts[?1l>[?2004l
+zsh: correct 'scripts' to 'script' [nyae]? n
+]2;scripts]1;scriptszsh: command not found: scripts
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hccd scripts[?1l>[?2004l
+]2;cd scripts]1;cdcd: no such file or directory: scripts
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       [1m[36mbrain_games[39;49m[0m    poetry.lock    setup.cfg
+README.md      [1m[36mdist[39;49m[0m           pyproject.toml typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mbrain_games[27m[11D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[?1l>[?2004l
+]2;brain_games]1;brain_games[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hl [Ks[?1l>[?2004l
+]2;ls -G]1;ls__init__.py cli.py      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7ms[7mc[7mripts[27m[K[A[73C[27msc[27mr[27mi[27mp[27mt[27ms[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py     brain_even.py   [31mbrain_games.py[39;49m[0m  brain_games.pyc
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlsl  ccd -[?1l>[?2004l
+]2;cd -]1;cd~/edPython/python-project-lvl1/brain_games
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hl [Ks[?1l>[?2004l
+]2;ls -G]1;ls__init__.py cli.py      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hp [Kooeo [K[A[79C[K[1B[K[A[79C[?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hp [Ko[K[A[79C[K[1B[K[A[79Cl [Ks[?1l>[?2004l
+]2;ls -G]1;ls__init__.py cli.py      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hp [Kooetry add random[?1l>[?2004l
+]2;poetry add random]1;poetry
+  [31;1mValueError[0m
+
+  [1mCould not find a matching version of package random[0m
+
+  at [32m~/.poetry/lib/poetry/console/commands/init.py[0m:[1m367[0m in [36m_find_best_version_for_package[0m
+      [39;2m363[0m[39;2m│[0m [39m        [0m[39;2m)[0m
+      [39;2m364[0m[39;2m│[0m 
+      [39;2m365[0m[39;2m│[0m [39m        [0m[35;1mif not [0m[39mpackage[0m[39;2m:[0m
+      [39;2m366[0m[39;2m│[0m [39;2m            [0m[39;2;3m# TODO: find similar[0m
+    [31;1m→[0m [39;1m367[0m[39;2m│[0m [39m            [0m[35;1mraise [0m[39;1mValueError[0m[39;2m([0m
+      [39;2m368[0m[39;2m│[0m [39m                [0m[33;1m"Could not find a matching version of package {}"[0m[39;2m.[0m[39;1mformat[0m[39;2m([0m[39mname[0m[39;2m)[0m
+      [39;2m369[0m[39;2m│[0m [39m            [0m[39;2m)[0m
+      [39;2m370[0m[39;2m│[0m 
+      [39;2m371[0m[39;2m│[0m [39m        [0m[35;1mreturn [0m[39mpackage[0m[39;2m.[0m[39mpretty_name[0m[39;2m, [0m[39mselector[0m[39;2m.[0m[39mfind_recommended_require_version[0m[39;2m([0m[39mpackage[0m[39;2m)[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hllkjlkjkljlk         l  ttoch   uch    t  mmkrf  dir defff     game
