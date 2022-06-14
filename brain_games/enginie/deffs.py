@@ -15,7 +15,6 @@ def answers():
 
 
 def maths():  # переменные для calc и even
-    # генерируем псевдослучайные числа
     num1, num2 = random.randint(1, 10), random.randint(1, 11)
     # переменные строк и вычислений
     plus, plus_str = num1 + num2, str(f'{num1}+{num2}')
@@ -33,3 +32,9 @@ def maths():  # переменные для calc и even
     else:
         random_operation_str = multiply_str
     return random_operation, random_operation_str, num1
+
+
+def nums1():
+    # генерируем псевдослучайные числа
+    x, y = random.randint(1, 100), random.randint(1, 100)
+    return x, y
