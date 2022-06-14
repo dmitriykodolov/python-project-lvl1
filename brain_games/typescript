@@ -1,65 +1,81 @@
-Script started on Wed Jun  8 10:22:00 2022
+Script started on Tue Jun 14 11:06:41 2022
 /Users/dmitrij/.zshrc:source:106: no such file or directory: /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;ls__init__.py [31mcli.py[39;49m[0m      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mscripts[27m[27ms[27mc[27mr[27mi[27mp[27mt[27ms[?1l>[?2004l
-]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;ls__init__.py     brain_even.py   [31mbrain_games.py[39;49m[0m  brain_games.pyc
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h../[7mbrain_games.py[27m[14D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[27m.[27mp[27my[?1l>[?2004l
-]2;./brain_games.py]1;./brain_games.pyTraceback (most recent call last):
-  File "./brain_games.py", line 4, in <module>
-    from brain_games.cli import welcome_user
-  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 4, in <module>
-    from brain_games.cli import welcome_user
-ImportError: No module named cli
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h./brain_games.py[16Dls              [14Dscriptsls     script./cli.py[8Dls -l   chmod +x cli.py[15Dls             [13Dcd -./brain_games.py[16Dls              [14Dscripts./brain_games.py[16Dpoetry run python -m brain_games.scripts.brain_even[51D./[19P[12Cpy                                   [35D[16Dpoetry run python -m brain_games.scripts.brain_games[?1l>[?2004l
-]2;poetry run python -m brain_games.scripts.brain_games]1;poetryTraceback (most recent call last):
-  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 184, in _run_module_as_main
-    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
-  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 110, in _get_module_details
-    __import__(pkg_name)
-  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 4, in <module>
-    from brain_games.cli import welcome_user
-ModuleNotFoundError: No module named 'brain_games.cli'; 'brain_games' is not a package
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpoetry run python -m brain_games.scripts.brain_games[52D                                                    [52Dиикфшт    и  bbrain-games[?1l>[?2004l
-]2;brain-games]1;brain-gamesWelcome to the Brain Games!
-May I have your name?lVB   Дмитрийъ 
-Hello, Дмитрий
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbrain-games[?1l>[?2004l
-ё]2;brain-games]1;brain-gamesWelcome to the Brain Games!
-May I have your name?^[[A^[[A
-Hello, ё[A[A
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbrain-games[11Dpoetry run python -m brain_games.scripts.brain_games[?1l>[?2004l
-]2;poetry run python -m brain_games.scripts.brain_games]1;poetryTraceback (most recent call last):
-  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 184, in _run_module_as_main
-    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
-  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/runpy.py", line 110, in _get_module_details
-    __import__(pkg_name)
-  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 4, in <module>
-    from brain_games.cli import welcome_user
-ModuleNotFoundError: No module named 'brain_games.cli'; 'brain_games' is not a package
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpoetry run python -m brain_games.scripts.brain_games[52Dbrain-games                                         [41D[11Dpoetry run python -m brain_games.scripts.brain_games[52D./[19P[12Cpy                                    [36D              .  дды[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hccd [7mscripts[27m[27ms[27mc[27mr[27mi[27mp[27mt[27ms[?1l>[?2004l
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hдды[?1l>[?2004l
 ]2;ды]1;дыzsh: command not found: ды
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;ls__init__.py     brain_even.py   [31mbrain_games.py[39;49m[0m  brain_games.pyc
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hccd-  -[?1l>[?2004l
+]2;ls -G]1;ls__init__.py    [1m[36m__pycache__[39;49m[0m    [31mbrain_calc.py[39;49m[0m  [31mbrain_even.py[39;49m[0m  [31mbrain_games.py[39;49m[0m brain_gcd.py
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppython3 [7mbrain_gcd.py[27m[12D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27mc[27md[27m.[27mp[27my[?1l>[?2004l
+]2;python3 brain_gcd.py]1;python3Traceback (most recent call last):
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_gcd.py", line 2, in <module>
+    from brain_games.games.gcd import euclidian
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_games.py", line 2, in <module>
+    from brain_games.cli import welcome_user
+ModuleNotFoundError: No module named 'brain_games.cli'; 'brain_games' is not a package
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hccd -[?1l>[?2004l
 ]2;cd -]1;cd~/edPython/python-project-lvl1/brain_games
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;ls__init__.py [31mcli.py[39;49m[0m      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hcchmod -x [7mcli.py[27m[27mc[27ml[27mi[27m.[27mp[27my[?1l>[?2004l
-]2;chmod -x cli.py]1;chmod[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;ls__init__.py cli.py      [1m[36mlogic[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake lint[?1l>[?2004l
-]2;make lint]1;makemake: *** No rule to make target `lint'.  Stop.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mbrain_games[27m[11D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[?1l>[?2004l
-]2;brain_games]1;brain_gameszsh: command not found: brain_games
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbrain_games[11Dmake lint  [?1l>[?2004l
-]2;make lint]1;makemake: *** No rule to make target `lint'.  Stop.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake lint[9Dbrain_games         b  ccd -[?1l>[?2004l
-]2;cd -]1;cd~/edPython/python-project-lvl1/brain_games/scripts
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/scripts]1;..games/scripts[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/scripts [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7m~/edPython/python-project-lvl1[27m[30D[27m~[27m/[27me[27md[27mP[27my[27mt[27mh[27mo[27mn[27m/[27mp[27my[27mt[27mh[27mo[27mn[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m-[27ml[27mv[27ml[27m1[?1l>[?2004l
-]2;~/edPython/python-project-lvl1]1;~/edPython/python-project-lvl1[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake lint[?1l>[?2004l
-]2;make lint]1;makepoetry run flake8 brain_games
+]2;ls -G]1;ls__init__.py cli.py      [1m[36menginie[39;49m[0m     [1m[36mgames[39;49m[0m       [1m[36mscripts[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games]1;..1/brain_games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mgames[27m[27mg[27ma[27mm[27me[27ms[?1l>[?2004l
+]2;games]1;games[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lscalc.py even.py gcd.py
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppython3 [7mgcd.py[27m[27mg[27mc[27md[27m.[27mp[27my[?1l>[?2004l
+]2;python3 gcd.py]1;python3Traceback (most recent call last):
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 2, in <module>
+    from brain_games.enginie.deffs import hello, nums
+ImportError: cannot import name 'nums' from 'brain_games.enginie.deffs' (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 gcd.py[?1l>[?2004l
+]2;python3 gcd.py]1;python3Traceback (most recent call last):
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 3, in <module>
+    from brain_games.enginie.deffs import nums
+ImportError: cannot import name 'nums' from 'brain_games.enginie.deffs' (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 gcd.py.py .py .py e.pyv.pye.pyn.py[?1l>[?2004l
+]2;python3 even.py]1;python3[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 even.pygcd.py [?1l>[?2004l
+]2;python3 gcd.py]1;python3Traceback (most recent call last):
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 2, in <module>
+    from brain_games.enginie.deffs import nums
+ImportError: cannot import name 'nums' from 'brain_games.enginie.deffs' (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 gcd.py[?1l>[?2004l
+]2;python3 gcd.py]1;python3Traceback (most recent call last):
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 1, in <module>
+    from brain_games.enginie.deffs import prompt, hello, nums
+ImportError: cannot import name 'nums' from 'brain_games.enginie.deffs' (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 gcd.py[?1l>[?2004l
+]2;python3 gcd.py]1;python3Traceback (most recent call last):
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 1, in <module>
+    from brain_games.enginie.deffs import prompt, hello, nums1
+ImportError: cannot import name 'nums1' from 'brain_games.enginie.deffs' (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1/brain_games/games]1;..n_games/games[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1/brain_games/games [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hccdc  [7m~/edPython/python-project-lvl1/[27m[31D[27m~[27m/[27me[27md[27mP[27my[27mt[27mh[27mo[27mn[27m/[27mp[27my[27mt[27mh[27mo[27mn[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m-[27ml[27mv[27ml[27m1[27m/[?1l>[?2004l
+]2;~/edPython/python-project-lvl1/]1;~/edPython/python-project-lvl1/[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    linter.txt     poetry.lock    pyproject.toml setup.cfg      typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppoetry run [7mbrain-calc = "brain_games.scripts.brain_calc:main"[27m[50D[27mb[27mr[27ma[27mi[27mn[27m-[27mc[27ma[27ml[27mc[27m [27m=[27m [27m"[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[27m.[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m.[27mb[27mr[27ma[27mi[27mn[27m_[27mc[27ma[27ml[27mc[27m:[27mm[27ma[27mi[27mn[27m                                      [?1l>[?2004l
+]2;poetry run brain-calc]1;poetryWelcome to the Brain Games!
+May I have your name? dIMA    Dima
+Hello, Dima
+Question: 9-7
+Your answer: 2
+Сorrect!
+Question: 3-4
+Your answer: 1
+'1' is wrong answer ;(. Correct answer was '-1'.Let's try again, Dima
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpoetry run brain-calc    gcd[?1l>[?2004l
+]2;poetry run brain-gcd]1;poetryTraceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_gcd.py", line 2, in <module>
+    from brain_games.games.gcd import euclidian
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 2, in <module>
+    from brain_games.enginie.deffs import nums
+ImportError: cannot import name 'nums' from 'brain_games.enginie.deffs' (/Users/dmitrij/edPython/python-project-lvl1/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    linter.txt     poetry.lock    pyproject.toml setup.cfg      typescript
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake build[?1l>[?2004l
 ]2;make build]1;makepoetry build
 Building [36mhexlet-code[0m ([39;1m0.1.0[0m)
@@ -67,98 +83,105 @@ Building [36mhexlet-code[0m ([39;1m0.1.0[0m)
   - Built [32mhexlet-code-0.1.0.tar.gz[0m
   - Building [34mwheel[0m
   - Built [32mhexlet_code-0.1.0-py3-none-any.whl[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake [7mpublish[27m[27mp[27mu[27mb[27ml[27mi[27ms[27mh[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake build[10Dls        [8Dpoetry run brain-gcd[?1l>[?2004l
+]2;poetry run brain-gcd]1;poetryTraceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_gcd.py", line 2, in <module>
+    from brain_games.games.gcd import euclidian
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 2, in <module>
+    from brain_games.enginie.deffs import nums
+ImportError: cannot import name 'nums' from 'brain_games.enginie.deffs' (/Users/dmitrij/edPython/python-project-lvl1/brain_games/enginie/deffs.py)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    [1m[36mdist[39;49m[0m           linter.txt     poetry.lock    pyproject.toml setup.cfg      typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hrrm -r dist[?1l>[?2004l
+]2;rm -r dist]1;rm[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hrm -r dist[10Dls        [8Drm -r dist[10Dls        [8Dpoetry run brain-gcd[?1l>[?2004l
+]2;poetry run brain-gcd]1;poetryWelcome to the Brain Games!
+May I have your name? Dima
+Hello, Dima
+Find the greatest common divisor of given numbers.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/scripts/brain_gcd.py", line 6, in main
+    euclidian()
+  File "/Users/dmitrij/edPython/python-project-lvl1/brain_games/games/gcd.py", line 8, in euclidian
+    x, y = nums()
+NameError: name 'nums' is not defined
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpoetry run brain-gcd[?1l>[?2004l
+]2;poetry run brain-gcd]1;poetryWelcome to the Brain Games!
+May I have your name? Lbvf    Дима
+Hello, Дима
+Find the greatest common divisor of given numbers.
+Question: 56 10
+Your answer: 1
+'1' is wrong answer ;(. 
+Correct answer was '2'.Let's try again, Дима
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hдды[?1l>[?2004l
+]2;ды]1;дыzsh: command not found: ды
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    linter.txt     poetry.lock    pyproject.toml setup.cfg      typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlsдыpoetry run brain-gcd[20Drm -r dist          [10D[10Dls        [8Drm -r dist[10Dpoetry run brain-gcd[20Dды                  [18Dls  mmake lint[?1l>[?2004l
+]2;make lint]1;makepoetry run flake8 brain_games
+brain_games/enginie/deffs.py:42:1: W391 blank line at end of file
+brain_games/games/gcd.py:18:81: E501 line too long (86 > 80 characters)
+make: *** [lint] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake lint[?1l>[?2004l
+]2;make lint]1;makepoetry run flake8 brain_games
+brain_games/games/gcd.py:18:81: E501 line too long (86 > 80 characters)
+make: *** [lint] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake lint[?1l>[?2004l
+]2;make lint]1;makepoetry run flake8 brain_games
+brain_games/games/gcd.py:18:81: E501 line too long (86 > 80 characters)
+make: *** [lint] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake lint[?1l>[?2004l
+]2;make lint]1;makepoetry run flake8 brain_games
+brain_games/games/gcd.py:18:81: E501 line too long (86 > 80 characters)
+make: *** [lint] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmake lint[?1l>[?2004l
+]2;make lint]1;makepoetry run flake8 brain_games
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    linter.txt     poetry.lock    pyproject.toml setup.cfg      typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake braon   ain-gcd[?1l>[?2004l
+]2;make brain-gcd]1;makepoetry run brain-gcd
+Welcome to the Brain Games!
+May I have your name? Dima
+Hello, Dima
+Find the greatest common divisor of given numbers.
+Question: 81 58
+Your answer: 1
+Correct!
+Question: 39 40
+Your answer: 1
+Correct!
+Question: 62 94
+Your answer: 2
+Correct!
+Congratulations, Dima!
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake build[?1l>[?2004l
+]2;make build]1;makepoetry build
+Building [36mhexlet-code[0m ([39;1m0.1.0[0m)
+  - Building [34msdist[0m
+  - Built [32mhexlet-code-0.1.0.tar.gz[0m
+  - Building [34mwheel[0m
+  - Built [32mhexlet_code-0.1.0-py3-none-any.whl[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake publish[?1l>[?2004l
 ]2;make publish]1;makepoetry publish --dry-run #публикуем
 
-[34mUsername:[0m 123456
+[34mUsername:[0m kodolovdv
 [34mPassword:[0m 
 Publishing [36mhexlet-code[0m ([39;1m0.1.0[0m) to [34mPyPI[0m
  - Uploading [36mhexlet-code-0.1.0.tar.gz[0m [1m0%[0m - Uploading [36mhexlet-code-0.1.0.tar.gz[0m [32m100%[0m
  - Uploading [36mhexlet_code-0.1.0-py3-none-any.whl[0m [1m0%[0m - Uploading [36mhexlet_code-0.1.0-py3-none-any.whl[0m [32m100%[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    [1m[36mdist[39;49m[0m           poetry.lock    pyproject.toml setup.cfg      typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hlls-  -a[?1l>[?2004l
-]2;ls -G -a]1;ls[1m[36m.[39;49m[0m              .DS_Store      [1m[36m.github[39;49m[0m        [1m[36m.idea[39;49m[0m          Makefile       [1m[36mbrain_games[39;49m[0m    poetry.lock    setup.cfg
-[1m[36m..[39;49m[0m             [1m[36m.git[39;49m[0m           .gitignore     [1m[36m.venv[39;49m[0m          README.md      [1m[36mdist[39;49m[0m           pyproject.toml typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake [7mpackage-install[27m[15D[27mp[27ma[27mc[27mk[27ma[27mg[27me[27m-[27mi[27mn[27ms[27mt[27ma[27ml[27ml[?1l>[?2004l
-]2;make package-install]1;makepython3 -m pip install --user dist/*.whl
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hmmake pack-re[?1l>[?2004l
+]2;make pack-re]1;makepython3 -m pip install --force-reinstall dist/*.whl
 Processing ./dist/hexlet_code-0.1.0-py3-none-any.whl
-Requirement already satisfied: prompt<0.5.0,>=0.4.1 in /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages (from hexlet-code==0.1.0) (0.4.1)
-hexlet-code is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
-[33mWARNING: There was an error checking the latest version of pip.[0m[33m
-[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppip[?1l>[?2004l
-]2;pip]1;pip
-Usage:   
-  pip <command> [options]
-
-Commands:
-  install                     Install packages.
-  download                    Download packages.
-  uninstall                   Uninstall packages.
-  freeze                      Output installed packages in requirements format.
-  list                        List installed packages.
-  show                        Show information about installed packages.
-  check                       Verify installed packages have compatible dependencies.
-  config                      Manage local and global configuration.
-  search                      Search PyPI for packages.
-  cache                       Inspect and manage pip's wheel cache.
-  index                       Inspect information available from package indexes.
-  wheel                       Build wheels from your requirements.
-  hash                        Compute hashes of package archives.
-  completion                  A helper command used for command completion.
-  debug                       Show information useful for debugging.
-  help                        Show help for commands.
-
-General Options:
-  -h, --help                  Show help.
-  --debug                     Let unhandled exceptions propagate outside the main subroutine, instead of logging them to stderr.
-  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
-  --require-virtualenv        Allow pip to only run in a virtual environment; exit with an error otherwise.
-  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
-  -V, --version               Show version and exit.
-  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to WARNING, ERROR, and CRITICAL logging levels).
-  --log <path>                Path to a verbose appending log.
-  --no-input                  Disable prompting for input.
-  --proxy <proxy>             Specify a proxy in the form scheme://[user:passwd@]proxy.server:port.
-  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
-  --timeout <sec>             Set the socket timeout (default 15 seconds).
-  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
-  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any HTTPS.
-  --cert <path>               Path to PEM-encoded CA certificate bundle. If provided, overrides the default. See 'SSL Certificate Verification' in pip documentation for more information.
-  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the certificate in PEM format.
-  --cache-dir <dir>           Store the cache data in <dir>.
-  --no-cache-dir              Disable the cache.
-  --disable-pip-version-check
-                              Don't periodically check PyPI to determine whether a new version of pip is available for download. Implied with --no-index.
-  --no-color                  Suppress colored output.
-  --no-python-version-warning
-                              Silence deprecation warnings for upcoming unsupported Pythons.
-  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
-  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the future.
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppip -V[?1l>[?2004l
-]2;pip -V]1;pippip 22.1.2 from /Library/Python/3.8/site-packages/pip (python 3.8)
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[7mpython3 -m pip install --user dist/*.whl[27m[40D[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27m-[27mu[27ms[27me[27mr[27m [27md[27mi[27ms[27mt[27m/[27m*[27m.[27mw[27mh[27ml[1C[1C[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[10C [12D[1C dist/*.whl[11D- dist/*.whl[11D- dist/*.whl[11Df dist/*.whl[11Do dist/*.whl[11Dr dist/*.whl[11Dc dist/*.whl[11De dist/*.whl[11Dr dist/*.whl[11De dist/*.whl[11Di dist/*.whl[11Dn dist/*.whl[11Ds dist/*.whl[11Dt dist/*.whl[11Da dist/*.whl[11Dl dist/*.whl[11Dl dist/*.whl[11D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
-]2;python3 -m pip install --forcereinstall dist/*.whl]1;python3
-Usage:   
-  /usr/local/bin/python3 -m pip install [options] <requirement specifier> [package-index-options] ...
-  /usr/local/bin/python3 -m pip install [options] -r <requirements file> [package-index-options] ...
-  /usr/local/bin/python3 -m pip install [options] [-e] <vcs project url> ...
-  /usr/local/bin/python3 -m pip install [options] [-e] <local project path> ...
-  /usr/local/bin/python3 -m pip install [options] <archive url/path> ...
-
-no such option: --forcereinstall
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 -m pip install --forcereinstall dist/*.whl[1C-einstall dist/*.whl[19D[P[19C [20D[1C-install dist/*.whl[18D[?1l>[?2004l
-]2;python3 -m pip install --forcere-install dist/*.whl]1;python3
-Usage:   
-  /usr/local/bin/python3 -m pip install [options] <requirement specifier> [package-index-options] ...
-  /usr/local/bin/python3 -m pip install [options] -r <requirements file> [package-index-options] ...
-  /usr/local/bin/python3 -m pip install [options] [-e] <vcs project url> ...
-  /usr/local/bin/python3 -m pip install [options] [-e] <local project path> ...
-  /usr/local/bin/python3 -m pip install [options] <archive url/path> ...
-
-no such option: --forcere-install
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hpython3 -m pip install --forcere-install dist/*.whl[P[18C [19D[1C-reinstall dist/*.whl[20D[?1l>[?2004l
-]2;python3 -m pip install --force-reinstall dist/*.whl]1;python3Processing ./dist/hexlet_code-0.1.0-py3-none-any.whl
 Collecting prompt<0.5.0,>=0.4.1
   Using cached prompt-0.4.1-py3-none-any.whl (7.1 kB)
 Installing collected packages: prompt, hexlet-code
@@ -170,38 +193,131 @@ Installing collected packages: prompt, hexlet-code
     Found existing installation: hexlet-code 0.1.0
     Uninstalling hexlet-code-0.1.0:
       Successfully uninstalled hexlet-code-0.1.0
-[33m  WARNING: The script brain-games is installed in '/Library/Frameworks/Python.framework/Versions/3.9/bin' which is not on PATH.
+[33m  WARNING: The scripts brain-calc, brain-even, brain-games and brain-gcd are installed in '/Library/Frameworks/Python.framework/Versions/3.9/bin' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m[33m
 [0mSuccessfully installed hexlet-code-0.1.0 prompt-0.4.1
 [33mWARNING: There was an error checking the latest version of pip.[0m[33m
-[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hPPATH=[7m'/Library/Frameworks/Python.framework/Versions/3.9/bin'[27m[55D[27m'[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mF[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27ms[27m/[27mP[27my[27mt[27mh[27mo[27mn[27m.[27mf[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27m/[27mV[27me[27mr[27ms[27mi[27mo[27mn[27ms[27m/[27m3[27m.[27m9[27m/[27mb[27mi[27mn[27m':'$'P'A'T'H'[1C[?1l>[?2004l
-]2;PATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH' ]1;[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004hPATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH'[?1l>[?2004l
-]2;PATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH' ]1;[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004hEENV[?1l>[?2004l
-]2;ENV]1;ENVzsh: command not found: ENV
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004heenv[?1l>[?2004l
-zsh: correct 'env' to '_env' [nyae]? y
-]2;_env]1;_env_pick_variant:19: bad math expression: operand expected at `|| 0 ) '
-_env:32: bad math expression: operand expected at `< CURRENT '
-_arguments:comparguments:325: can only be called from completion function
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004heenv[?1l>[?2004l
-zsh: correct 'env' to '_env' [nyae]? n
-]2;env]1;envzsh: command not found: env
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [49m[34m[39m [K[?1h=[?2004h~[?1l>[?2004l
-]2;~]1;~[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004heenv[?1l>[?2004l
-zsh: correct 'env' to '_env' [nyae]? n
-]2;env]1;envzsh: command not found: env
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hllsl  bbre b  bbrain-games[?1l>[?2004l
-]2;brain-games]1;brain-gamesWelcome to the Brain Games!
-May I have your name? Lvbn    Дмитрий 
-Hello,  Дмитрий 
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~prompt_status:5: command not found: wc
-[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hbrain-games[?1l>[?2004l
-]2;brain-games]1;brain-gamesWelcome to the Brain Games!
-May I have your name?
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hppap  PPAP  eexport [7m/Library/Frameworks/Python.framework/Versions/3.9/bin[27m[53D[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mF[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27ms[27m/[27mP[27my[27mt[27mh[27mo[27mn[27m.[27mf[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27m/[27mV[27me[27mr[27ms[27mi[27mo[27mn[27ms[27m/[27m3[27m.[27m9[27m/[27mb[27mi[27m                                                     PATH=' ""[7m/[7mLibrary/Frameworks/Python.framework/Versions/3.9/bin[27m"[53D[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mF[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27ms[27m/[27mP[27my[27mt[27mh[27mo[27mn[27m.[27mf[27mr[27ma[27mm[27me[27mw[27mo[27mr[27mk[27m/[27mV[27me[27mr[27ms[27mi[27mo[27mn[27ms[27m/[27m3[27m.[27m9[27m/[27mb[27mi[27mn[1C:$PAR TH[?1l>[?2004l
+]2;export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin":$PATH ]1;export[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h~[?1l>[?2004l
+]2;~]1;~[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hBBRA B  bbrain-gcd[?1l>[?2004l
+]2;brain-gcd]1;brain-gcdWelcome to the Brain Games!
+May I have your name? Lbvf    Дима
+Hello, Дима
+Find the greatest common divisor of given numbers.
+Question: 61 41
+Your answer: 1
+Correct!
+Question: 49 66
+Your answer: 2
+'2' is wrong answer ;(. 
+Correct answer was '1'.
+Let's try again, Дима
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hффыс ф  aascinema run[?1l>[?2004l
+zsh: correct 'ascinema' to 'asciinema' [nyae]? n
+]2;ascinema run]1;ascinemazsh: command not found: ascinema
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hascinema run[?1l>[?2004l
+zsh: correct 'ascinema' to 'asciinema' [nyae]? y
+]2;asciinema run]1;asciinemausage: asciinema [-h] [--version] {rec,play,cat,upload,auth} ...
+asciinema: error: argument {rec,play,cat,upload,auth}: invalid choice: 'run' (choose from 'rec', 'play', 'cat', 'upload', 'auth')
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hasciinema run  ecr ord[?1l>[?2004l
+]2;asciinema record]1;asciinemausage: asciinema [-h] [--version] {rec,play,cat,upload,auth} ...
+asciinema: error: argument {rec,play,cat,upload,auth}: invalid choice: 'record' (choose from 'rec', 'play', 'cat', 'upload', 'auth')
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hasciinema record   [?1l>[?2004l
+]2;asciinema rec]1;asciinema[0;32masciinema: recording asciicast to /var/folders/wh/brd869t16w10cy9nyrx3v3kh0000gn/T/tmpcwhlnklw-ascii.cast[0m
+[0;32masciinema: press <ctrl-d> or type "exit" when you're done[0m
+/Users/dmitrij/.zshrc:source:106: no such file or directory: /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hbbri ain-gcd[?1l>[?2004l
+]2;brain-gcd]1;brain-gcdWelcome to the Brain Games!
+May I have your name? Dima
+Hello, Dima
+Find the greatest common divisor of given numbers.
+Question: 98 71
+Your answer: 1
+Correct!
+Question: 51 35
+Your answer: 1
+Correct!
+Question: 20 27
+Your answer: 2
+'2' is wrong answer ;(. 
+Correct answer was '1'.
+Let's try again, Dima
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004h[?2004l
+[0;32masciinema: recording finished[0m
+[0;32masciinema: press <enter> to upload to asciinema.org, <ctrl-c> to save locally[0m
+
+View the recording at:
+
+    https://asciinema.org/a/fh3ARe5n4Csxjm6xjtLCvEUvz
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hasciinema recordun   [9Dnema run [12Dbra[2C-gcd   [?1l>[?2004l
+]2;brain-gcd]1;brain-gcdWelcome to the Brain Games!
+May I have your name? sada
+Hello, sada
+Find the greatest common divisor of given numbers.
+Question: 36 49
+Your answer: 12
+'12' is wrong answer ;(. 
+Correct answer was '1'.
+Let's try again, sada
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hbrain-gcd   calc[?1l>[?2004l
+]2;brain-calc]1;brain-calcWelcome to the Brain Games!
+May I have your name? asd
+Hello, asd
+Question: 2-1
+Your answer: 2
+'2' is wrong answer ;(. Correct answer was '1'.Let's try again, asd
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004hbrain-calc    even[?1l>[?2004l
+]2;brain-even]1;brain-evenWelcome to the Brain Games!
+May I have your name? asd^[[A
+Hello, asd[A
+Answer "yes" if the number is even, otherwise answer "no".
+6
+Your answer yes
+Correct!
+2
+Your answer no
+no is wrong answer ;(. Correct answer was 'yes'. Let's try again, asd[A
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~]1;~[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~ [49m[34m[39m [K[?1h=[?2004h[7m~/edPython/python-project-lvl1[27m[30D[27m~[27m/[27me[27md[27mP[27my[27mt[27mh[27mo[27mn[27m/[27mp[27my[27mt[27mh[27mo[27mn[27m-[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m-[27ml[27mv[27ml[27m1[?1l>[?2004l
+]2;~/edPython/python-project-lvl1]1;~/edPython/python-project-lvl1[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitНа ветке main
+Ваша ветка обновлена в соответствии с «origin/main».
+
+Изменения, которые не в индексе для коммита:
+  (используйте «git add <файл>…», чтобы добавить файл в индекс)
+  (используйте «git restore <файл>…», чтобы отменить изменения в рабочем каталоге)
+	[31mизменено:      .DS_Store[m
+	[31mизменено:      Makefile[m
+	[31mизменено:      README.md[m
+	[31mизменено:      brain_games/.DS_Store[m
+	[31mизменено:      brain_games/enginie/deffs.py[m
+	[31mизменено:      brain_games/typescript[m
+	[31mизменено:      dist/hexlet-code-0.1.0.tar.gz[m
+	[31mизменено:      dist/hexlet_code-0.1.0-py3-none-any.whl[m
+	[31mизменено:      pyproject.toml[m
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+	[31mbrain_games/games/gcd.py[m
+	[31mbrain_games/scripts/brain_gcd.py[m
+
+нет изменений добавленных для коммита
+(используйте «git add» и/или «git commit -a»)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004hbbrai  b  ggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ✚ [49m[33m[39m [K[?1h=[?2004hggit commit -m ""И""  Э"" '"" [1C"I"" U"s"e"d" "a"l"g"o"r"i"t"h"m" "o"f" "E"u"c"l"i"d" ""  "" [1C [7mbrain_games/games/gcd.py[27m[24D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[27m/[27mg[27ma[27mm[27me[27ms[27m/[27mg[27mc[27md[27m.[27mp[27my[?1l>[?2004l
+]2;git commit -m "Used algorithm of Euclid" brain_games/games/gcd.py]1;git[main bbe88dc] Used algorithm of Euclid
+ 1 file changed, 22 insertions(+)
+ create mode 100644 brain_games/games/gcd.py
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ±✚ [49m[33m[39m [K[?1h=[?2004hgit commit -m "Used algorithm of Euclid" brain_games/games/gcd.py                        [7mREADME.md[27m[9D[27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27m         [7mREADME.md[27m[9D[27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[1C[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[11C [12DN" README.md[11De" README.md[11Dw" README.md[11D " README.md[11Da" README.md[11Dc" README.md[11Ds" README.md[11Di" README.md[11Di" README.md[11Dn" README.md[11De" README.md[11Dm" README.md[11Da" README.md[11D " README.md[11Df" README.md[11Do" README.md[11Dr" README.md[11D " README.md[11Db" README.md[11Dr" README.md[11Da" README.md[11Di" README.md[11D-" README.md[11D[P[11C [12Dn" README.md[11D-" README.md[11Dg" README.md[11Dc" README.md[11Dd" README.md[11D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;git commit -m "New acsiinema for brain-gcd" README.md]1;git[main fc0606b] New acsiinema for brain-gcd
+ 1 file changed, 9 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ±✚ [49m[33m[39m [K[?1h=[?2004hgit commit -m "New acsiinema for brain-gcd" README.md[7mMakefile[27m[8D[27mM[27ma[27mk[27me[27mf[27mi[27ml[27meMakefile [9DMakefile [9DMakefile [9DMakefile [9Dakefile [9DMakefile [9DMakefile [9DMakefile [9DMakefile [9D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11D[P[10C [11Dm" Makefile[10Da" Makefile[10Dk" Makefile[10De" Makefile[10D-" Makefile[10Dc" Makefile[10Do" Makefile[10Dm" Makefile[10Dm" Makefile[10Da" Makefile[10Dn" Makefile[10Dd" Makefile[10Ds" Makefile[10D " Makefile[10Df" Makefile[10Do" Makefile[10Dr" Makefile[10D " Makefile[10Dr" Makefile[10De" Makefile[10D-" Makefile[10Di" Makefile[10Dn" Makefile[10Ds" Makefile[10Dt" Makefile[10Da" Makefile[10Dl" Makefile[10Dl" Makefile[10D " Makefile[10Dp" Makefile[10Da" Makefile[10Dc" Makefile[10Dk" Makefile[10Da" Makefile[10Dg" Makefile[10De" Makefile[10D " Makefile[10Dw" Makefile[10Di" Makefile[10Dt" Makefile[10Dh" Makefile[10D " Makefile[10D-" Makefile[10D-" Makefile[10Df" Makefile[10Do" Makefile[10Dr" Makefile[10Dc" Makefile[10De" Makefile[10D " Makefile[10D[P[10C [11D," Makefile[10D " Makefile[10Dn" Makefile[10De" Makefile[10Dw" Makefile[10D " Makefile[10Dm" Makefile[10D-" Makefile[10Dc" Makefile[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[P[11C [12D( for re-install package with --force, new mc" Makefile[54D) for re-install package with --force, new mc" Makefile[54Dm) for re-install package with --force, new mc" Makefile[55Dc) for re-install package with --force, new mc" Makefile[55D[1C:) for re-install package with --force, new mc" Makefile[55D[1C) for re-install package with --force, new mc" Makefile[55D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C " Makefile[10Df" Makefile[10Do" Makefile[10Dr" Makefile[10D " Makefile[10Dg" Makefile[10Da" Makefile[10Dm" Makefile[10De" Makefile[10Ds" Makefile[10D " Makefile[10D[P[10C [11D[?1l>[?2004l
+]2;git commit -m  Makefile]1;git[main 2844a1d] New make-commands(mc:)) for re-install package with --force, new mc for games
+ 1 file changed, 6 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ±✚ [49m[33m[39m [K[?1h=[?2004hgit commit -m "New make-commands(mc:)) for re-install package with --force, new mc for games" Makefile[1C         [7mbrain_games/enginie/deffs.py[27m[28D[27mb[27mr[27ma[27mi[27mn[27m_[27mg[27ma[27mm[27me[27ms[27m/[27me[27mn[27mg[27mi[27mn[27mi[27me[27m/[27md[27me[27mf[27mf[27ms[27m.[27mp[27my[1C[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D " brain_games/enginie/deffs.py[30Dd" brain_games/enginie/deffs.py[30De" brain_games/enginie/deffs.py[30Df" brain_games/enginie/deffs.py[30Df" brain_games/enginie/deffs.py[30Ds" brain_games/enginie/deffs.py[30D " brain_games/enginie/deffs.py[30Df" brain_games/enginie/deffs.py[30Do" brain_games/enginie/deffs.py[30Dr" brain_games/enginie/deffs.py[30D " brain_games/enginie/deffs.py[30Dg" brain_games/enginie/deffs.py[30Da" brain_games/enginie/deffs.py[30Dm" brain_games/enginie/deffs.py[30De" brain_games/enginie/deffs.py[30Ds" brain_games/enginie/deffs.py[30D " brain_games/enginie/deffs.py[30D[P[30C [31D[P[30C [31D'" brain_games/enginie/deffs.py[30Ds" brain_games/enginie/deffs.py[30D " brain_games/enginie/deffs.py[30Dl" brain_games/enginie/deffs.py[30Do" brain_games/enginie/deffs.py[30Dg" brain_games/enginie/deffs.py[30D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31D[P[30C [31Ds" brain_games/enginie/deffs.py[30D " brain_games/enginie/deffs.py[30Dl" brain_games/enginie/deffs.py[30Do" brain_games/enginie/deffs.py[30Dg" brain_games/enginie/deffs.py[30Di" brain_games/enginie/deffs.py[30Dc" brain_games/enginie/deffs.py[30D " brain_games/enginie/deffs.py[30D[P[30C [31D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;git commit -m "New deffs for games logic" brain_games/enginie/deffs.py]1;git[main 8a97c62] New deffs for games logic
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ±✚ [49m[33m[39m [K[?1h=[?2004hgit commit -m "New deffs for games logic" brain_games/enginie/deffs.py                             [7mpyproject.toml[27m[14D[27mp[27my[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m.[27mt[27mo[27mm[27ml[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17Db" pyproject.toml[16Dr" pyproject.toml[16Da" pyproject.toml[16Di" pyproject.toml[16Dn" pyproject.toml[16D " pyproject.toml[16D[P[16C [17D-" pyproject.toml[16Dc" pyproject.toml[16Da" pyproject.toml[16D[P[16C [17D[P[16C [17D[P[16C [17D." pyproject.toml[16Dg" pyproject.toml[16Da" pyproject.toml[16Dm" pyproject.toml[16De" pyproject.toml[16Ds" pyproject.toml[16D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17D[P[16C [17Ds" pyproject.toml[16Dc" pyproject.toml[16Dr" pyproject.toml[16Di" pyproject.toml[16Dp" pyproject.toml[16Dt" pyproject.toml[16Ds" pyproject.toml[16D " pyproject.toml[16D[P[16C [17D." pyproject.toml[16D " pyproject.toml[16D[P[16C [17Db" pyproject.toml[16Dr" pyproject.toml[16Da" pyproject.toml[16Di" pyproject.toml[16Dn" pyproject.toml[16D_" pyproject.toml[16Dg" pyproject.toml[16Dc" pyproject.toml[16Dd" pyproject.toml[16D_n.scripts.brain_gcd" pyproject.toml[35D[P[35C [36D[1C_.scripts.brain_gcd" pyproject.toml[34Dg.scripts.brain_gcd" pyproject.toml[34De.scripts.brain_gcd" pyproject.toml[34D[P[34C [35Da.scripts.brain_gcd" pyproject.toml[34Dm.scripts.brain_gcd" pyproject.toml[34De.scripts.brain_gcd" pyproject.toml[34Ds.scripts.brain_gcd" pyproject.toml[34D .scripts.brain_gcd" pyproject.toml[34D[P[34C [35D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C d" pyproject.toml[17D[P[17C [18D[1C " pyproject.toml[16Di" pyproject.toml[16Dn" pyproject.toml[16D " pyproject.toml[16D[7m[[7mt[7mo[7mo[7ml[7m.[7mp[7mo[7me[7mt[7mr[7my[7m.[7ms[7mc[7mr[7mipts][27m" pyproject.toml[16D[21D[27m[[27mt[27mo[27mo[27ml[27m.[27mp[27mo[27me[27mt[27mr[27my[27m.[27ms[27mc[27mr[27mi[27mp[27mt[27ms[27m][1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;git commit -m "brain_games.scripts.brain_gcd in [tool.poetry.scripts]" ]1;git[main 78d1b54] brain_games.scripts.brain_gcd in [tool.poetry.scripts]
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]2;dmitrij@MacBook-Pro:~/edPython/python-project-lvl1]1;..-project-lvl1[0m[27m[24m[J[39m[0m[49m[40m[39m dmitrij@MacBook-Pro [44m[30m[30m ~/edPython/python-project-lvl1 [43m[34m[30m  main ±✚ [49m[33m[39m [K[?1h=[?2004hggit -m ''  ""P"f"d"h"" " " "  [1C"[1Cp"" З"а"в"е"р"ш"и"д"л" "" " " л" "с"е"д"ь"м"о"й" "" " " " " " " " " " " " " " " " " У"т"в"у"" " " " E"n"d"e"d" "7"'"" " " " " " " " F"i"n"i"s"h"e"f" "" " d" "7"'"s" "s"t"e"p" "" [1C
