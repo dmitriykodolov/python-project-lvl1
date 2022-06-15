@@ -13,3 +13,10 @@
 Игра-вычисление НОД
 
 [![asciicast](https://asciinema.org/a/fh3ARe5n4Csxjm6xjtLCvEUvz.svg)](https://asciinema.org/a/fh3ARe5n4Csxjm6xjtLCvEUvz)
+
+
+### Работа progression ###
+Игра с арифметической прогрессией. Рандомно выбираются, разность прогрессии, состав прогрессии, расположение вопроса.
+Логика игры с комментариями в `brain_games/games/progression.py`
+
+[![asciicast](https://asciinema.org/a/7dlwJK0tOcffwGYLwwusNfI7E.svg)](https://asciinema.org/a/7dlwJK0tOcffwGYLwwusNfI7E)
