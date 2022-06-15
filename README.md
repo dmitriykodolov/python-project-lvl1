@@ -20,3 +20,9 @@
 Логика игры с комментариями в `brain_games/games/progression.py`
 
 [![asciicast](https://asciinema.org/a/7dlwJK0tOcffwGYLwwusNfI7E.svg)](https://asciinema.org/a/7dlwJK0tOcffwGYLwwusNfI7E)
+
+
+### Работа prime ###
+Игра с простыми числами. Пользователю нужно угадать определить простое число. Логика игра и реализация определения простого числа в `brain_games/games/progression.py`
+
+[![asciicast](https://asciinema.org/a/BitFSnGonvDPTbBSUsmK7DcKp.svg)](https://asciinema.org/a/BitFSnGonvDPTbBSUsmK7DcKp)
