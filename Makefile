@@ -13,6 +13,9 @@ brain-even:
 brain-gcd:
 	poetry run brain-gcd
 
+brain-pr:
+	poetry run brain-progression
+
 build:
 	poetry build
 
