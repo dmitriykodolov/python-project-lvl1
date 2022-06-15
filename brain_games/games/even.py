@@ -6,7 +6,7 @@ def quiz_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for answer in range(3):
         question = maths()[2]
-        print(question)
+        print(f'Question: {question}')
         answer = prompt.string('Your answer ').lower()
         if question % 2 == 0 and answer == 'yes' \
                 or question % 2 != 0 and answer == 'no':
