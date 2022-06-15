@@ -16,6 +16,9 @@ brain-gcd:
 brain-pr:
 	poetry run brain-progression
 
+brain_prime:
+	poetry run brain-prime
+
 build:
 	poetry build
 
