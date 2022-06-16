@@ -17,9 +17,9 @@ def answers():
 def maths():  # переменные для calc и even
     num1, num2 = random.randint(1, 10), random.randint(1, 11)
     # переменные строк и вычислений
-    plus, plus_str = num1 + num2, str(f'{num1}+{num2}')
-    minus, minus_str = num1 - num2, str(f'{num1}-{num2}')
-    multiply, multiply_str = num1 * num2, str(f'{num1}*{num2}')
+    plus, plus_str = num1 + num2, str(f'{num1} + {num2}')
+    minus, minus_str = num1 - num2, str(f'{num1} - {num2}')
+    multiply, multiply_str = num1 * num2, str(f'{num1} * {num2}')
 
     # создание случайных арифметических примеров
     random_operation = random.choice([plus, minus, multiply])
