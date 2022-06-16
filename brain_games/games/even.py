@@ -14,11 +14,11 @@ def quiz_even():
         else:
             if question % 2 != 0 and answer == 'yes':
                 print(f'{answer} is wrong answer ;(. '
-                      f'Correct answer was \'no\'. Let\'s try again, {name}')
+                      f'Correct answer was \'no\'. Let\'s try again, {name}!')
                 break
             elif question % 2 == 0 and answer == 'no':
                 print(f'{answer} is wrong answer ;(. '
-                      f'Correct answer was \'yes\'. Let\'s try again, {name}')
+                      f'Correct answer was \'yes\'. Let\'s try again, {name}!')
                 break
 
     else:
