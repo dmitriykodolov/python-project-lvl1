@@ -48,8 +48,8 @@ def progression():
             print('Correct!')
         else:
             print(f'{answer} is wrong answer ;(. '
-                  f'Correct answer was {correct}. '
-                  f'Let\'s try again, {name}')
+                  f'Correct answer was {correct}. ''\n'
+                  f'Let\'s try again, {name}!')
             break
     else:
         print(f'Congratulations, {name}!')
