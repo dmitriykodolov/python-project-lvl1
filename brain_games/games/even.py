@@ -22,4 +22,4 @@ def quiz_even():
                 break
 
     else:
-        print(f'Congratulations, {name}!)
+        print(f'Congratulations, {name}!')
