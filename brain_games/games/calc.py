@@ -12,7 +12,7 @@ def quiz_calc():
             print('Сorrect!')
         else:
             print(f'\'{answer}\' is wrong answer ;(. '
-                  f'Correct answer was \'{random_operation}\'. '
+                  f'Correct answer was \'{random_operation}\'. ''\n'
                   f'Let\'s try again, {name}!')
             break
     else:
